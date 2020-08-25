@@ -1,0 +1,1 @@
+"use strict";$(".nav_con>ul").click(function(n){var t=(n=n||window.event).target||n.srcElement;"首页"==t.innerHTML?location="../html/index.html":"关于我们"==t.innerHTML?location="../html/about.html":"产品展示"==t.innerHTML?location="../html/display.html":"设计团队"==t.innerHTML?location="../html/team.html":"新闻动态"==t.innerHTML&&(location="../html/news.html")});
